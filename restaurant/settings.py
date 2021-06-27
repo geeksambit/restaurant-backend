@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'restaurant.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
 REST_FRAMEWORK = {
 
     'DATETIME_FORMAT': "%d/%m/%Y %H:%M:%S",
@@ -107,16 +107,16 @@ REST_FRAMEWORK = {
 #     }
 
 
-DATABASES = {
-        'default': {
-            'ENGINE':'django.db.backends.mysql',
-            'NAME':'restaurant',
-            'USER':'sambit',
-            'PASSWORD':'sambit@123',
-            'HOST':'localhost',
-            'PORT':'',
-        }
-    }
+# DATABASES = {
+#         'default': {
+#             'ENGINE':'django.db.backends.mysql',
+#             'NAME':'restaurant',
+#             'USER':'sambit',
+#             'PASSWORD':'sambit@123',
+#             'HOST':'localhost',
+#             'PORT':'',
+#         }
+#     }
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators

@@ -10,3 +10,6 @@ src/*.egg-info
 lib
 lib64
 *.pyc
+db.sqlite3
+restovenv
+activate
